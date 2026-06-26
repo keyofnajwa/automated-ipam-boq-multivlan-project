@@ -6,7 +6,6 @@ Proyek ini disimulasikan berdasarkan skenario permintaan dari stakeholder/client
 
 ### 🔑 Dokumen Autentikasi Pengujian (Lab Credentials)
 Untuk kebutuhan audit konfigurasi live pada file `.pkt` di Cisco Packet Tracer, seluruh lini pengamanan menggunakan kredensial standar pengujian berikut:
-* **Username:** `admin` (jika ada)
 * **Enable Password / Secret:** `cisco`
 * **Console Password:** `cisco`
 * **VTY / Remote Password:** `cisco`
