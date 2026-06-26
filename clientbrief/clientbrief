@@ -2,7 +2,7 @@
 
 Proyek ini disimulasikan berdasarkan skenario permintaan dari stakeholder/client yang membutuhkan perancangan jaringan aman berskala multi-lantai dengan otomasi manajemen data.
 
-![Screenshot Email Brief Client](NAMA_FILE_SS_EMAIL_LU)
+![Screenshot Email Brief Client](assets/cleint brief.png)
 
 ### 🔑 Dokumen Autentikasi Pengujian (Lab Credentials)
 Untuk kebutuhan audit konfigurasi live pada file `.pkt` di Cisco Packet Tracer, seluruh lini pengamanan menggunakan kredensial standar pengujian berikut:
