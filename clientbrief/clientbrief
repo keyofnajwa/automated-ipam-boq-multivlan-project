@@ -2,8 +2,7 @@
 
 Proyek ini disimulasikan berdasarkan skenario permintaan dari stakeholder/client yang membutuhkan perancangan jaringan aman berskala multi-lantai dengan otomasi manajemen data.
 
-![Screenshot Email Brief Client] 
-https://github.com/keyofnajwa/automated-ipam-boq-multivlan-project/blob/d80f3ab4a74a39ac28fbc4c1909adccaca09a559/assets/cleint%20brief.png
+!![Screenshot Email Brief Client](https://github.com/keyofnajwa/automated-ipam-boq-multivlan-project/blob/d80f3ab474a39ac28fbc4c1909adccaca09a559/assets/cleint%20brief.png?raw=true)
 
 ### 🔑 Dokumen Autentikasi Pengujian (Lab Credentials)
 Untuk kebutuhan audit konfigurasi live pada file `.pkt` di Cisco Packet Tracer, seluruh lini pengamanan menggunakan kredensial standar pengujian berikut:
