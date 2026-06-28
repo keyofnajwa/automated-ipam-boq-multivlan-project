@@ -82,7 +82,7 @@ Divisi **VLAN 30 (Finance)** menyimpan data keuangan krusial milik klien. Untuk 
 Proses penyerahan proyek ke klien menyertakan laporan audit *troubleshooting* riil saat proses *deployment* di lapangan.
 
 ### 1. Isolasi Masalah Menggunakan Komparasi `show run`
-Saat pengujian awal, endpoint pada **VLAN 40 dan VLAN 50 gagal mendapatkan IP DHCP**. Untuk melacak *bug*, saya melakukan komparasi konfigurasi menggunakan perintah `show running-config` antara Switch **IT-MA** (IT-Management) yang berjalan normal dengan Switch **F-CS** (Floor-CS) yang bermasalah.
+Saat pengujian awal, endpoint pada **VLAN 40 dan VLAN 50 gagal mendapatkan IP DHCP**. Untuk melacak *bug*, saya melakukan komparasi konfigurasi menggunakan perintah `show running-config` antara Switch **F-CS** (Floor-1) yang berjalan normal dengan Switch **IT-MA** (Floor-2) yang bermasalah.
 
 * **Akar Masalah:** Ditemukan kesalahan penulisan sintaks pada jalur trunk Switch F-CS. Terdapat ketidaksengajaan penggunaan tanda titik `.` sebagai pemisah, alih-alih menggunakan tanda koma `,` saat mendaftarkan list VLAN (terbaca: `40.50.99`).
 * **Dampak Teknis:** Cisco IOS menolak string tersebut, menyebabkan status enkapsulasi trunk yang diizinkan (*allowed*) jatuh ke status **`none`** (memblokir seluruh jalur VLAN 40 & 50 di Layer 2).
