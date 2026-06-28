@@ -1,6 +1,6 @@
 # 🌐 Automated IPAM & BoQ Project: Implementing Multi-VLAN DHCP with Active Port Security
 
-Selamat datang di repositori resmi proyek **"The Man Behind the Gun" - Network Infrastructure & Data Automation Portfolio**.
+Selamat datang di repositori resmi proyek  - **Network Infrastructure & Data Automation Portfolio**.
 
 Proyek ini merupakan dokumentasi lengkap dari visualisasi dashboard interaktif Microsoft Excel yang sebelumnya telah saya bagikan di **LinkedIn**. Di sini, saya tidak hanya menyajikan rancangan kalkulasi data, tetapi juga menyediakan pembuktian teknis berupa simulasi jaringan aktif berskala *Enterprise* (Multi-Floor Network) menggunakan **Cisco Packet Tracer**.
 
