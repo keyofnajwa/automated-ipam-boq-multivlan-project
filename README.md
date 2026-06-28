@@ -12,7 +12,7 @@ Untuk mempermudah peninjauan dan audit dokumen, repositori ini telah dibagi menj
 
 *   **`01-Client-Brief-and-Documentation/`**
     *   Berisi latar belakang proyek fiktif (*Client Brief* berbasis email) untuk mensimulasikan kebutuhan riil di industri.
-    *   Menyimpan dokumen master **`DUMMYY PROJECT ALL.pdf`** atau file `.xlsx` yang berisi database administrasi jaringan serta rincian kalkulasi biaya.
+    *   Menyimpan dokumen master **`p.pdf`** yang berisi database administrasi jaringan serta rincian kalkulasi biaya.
 *   **`02-Network-Configuration-and-Simulation/`**
     *   Berisi file lab simulasi live murni (**`.pkt`**) yang dapat dijalankan langsung di Cisco Packet Tracer.
     *   Dilengkapi dengan dokumentasi *Command Line Interface* (CLI) untuk pengerasan keamanan (*hardening*) perangkat dan studi kasus *troubleshooting*.
